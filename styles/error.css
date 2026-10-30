@@ -1,9 +1,9 @@
 .error {
-  position: absolute;
-  inset: 0;
+  grid-area: 1 / 1;
+  z-index: 1;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: #545050;
 }
 
